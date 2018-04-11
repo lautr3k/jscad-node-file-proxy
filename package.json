@@ -1,0 +1,25 @@
+{
+  "name": "jscad-node-file-proxy",
+  "version": "0.1.0",
+  "description": "Node file proxy for the jscad project",
+  "main": "index.js",
+  "scripts": {
+    "start": "node ./index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lautr3k/jscad-node-file-proxy.git"
+  },
+  "author": "Sébastien Mischler (sebastien@onlfait.ch)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lautr3k/jscad-node-file-proxy/issues"
+  },
+  "homepage": "https://github.com/lautr3k/jscad-node-file-proxy#readme",
+  "dependencies": {
+    "express": "^4.16.3",
+    "minimist": "^1.2.0",
+    "request": "^2.85.0",
+    "uuid": "^3.2.1"
+  }
+}
