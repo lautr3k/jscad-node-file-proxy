@@ -1,3 +1,4 @@
+#!/usr/bin/env node
 const networkInterfaces = require('os').networkInterfaces()
 const minimist = require('minimist')
 const express = require('express')

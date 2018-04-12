@@ -2,9 +2,9 @@
   "name": "jscad-node-file-proxy",
   "version": "0.1.0",
   "description": "Node file proxy for the jscad project",
-  "main": "index.js",
+  "cli": "bin/jscad-node-file-proxy",
   "scripts": {
-    "start": "node ./index.js"
+    "start": "node bin/jscad-node-file-proxy"
   },
   "repository": {
     "type": "git",
