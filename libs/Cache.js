@@ -16,7 +16,8 @@ function Cache (settings) {
   settings = Object.assign(Cache.DEFAULTS, settings || {})
 
   // Set properties
-  this.path = fs.realpathSync(settings.path)
+  this.path = path.relative(process.cwd(), settings.path)
+  this.realpath = fs.realpathSync(this.path)
   this.lifetime = settings.lifetime * 1000
   this.useTimeout = settings.useTimeout
 

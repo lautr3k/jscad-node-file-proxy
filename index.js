@@ -9,8 +9,8 @@ function server (settings) {
 
   function onListen () {
     console.log('Proxy server listening on http://' + this.ip + ':' + this.port)
+    console.log('Cache realpath:', cache.realpath)
     console.log('Cache lifetime:', cache.lifetime / 1000, 'seconds')
-    console.log('Cache path    :', cache.path)
   }
 
   function onRequest (req, res) {
