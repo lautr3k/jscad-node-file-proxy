@@ -1,6 +1,6 @@
 {
   "name": "jscad-node-file-proxy",
-  "version": "0.3.0",
+  "version": "0.3.1",
   "description": "Node file proxy for the jscad project",
   "bin": {
     "jscad-node-file-proxy": "bin/cli.js"
